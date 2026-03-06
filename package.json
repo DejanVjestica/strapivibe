@@ -12,6 +12,7 @@
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
     "strapi": "strapi",
+    "types:generate": "strapi ts:generate-types",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry",
     "transfer:ToCloud": "strapi transfer --to $STRAPI_CLOUD_URL/admin --to-token $STRAPI_TRANSFER_TO_TOKEN",
