@@ -15,8 +15,8 @@
     "types:generate": "strapi ts:generate-types",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry",
-    "transfer:ToCloud": "strapi transfer --to $STRAPI_CLOUD_URL/admin --to-token $STRAPI_TRANSFER_TO_TOKEN",
-    "transfer:FromCloud": "strapi transfer --from $STRAPI_CLOUD_URL/admin --from-token $STRAPI_TRANSFER_FROM_TOKEN"
+    "transfer:ToCloud": "strapi transfer --to $STRAPI_CLOUD_URL --to-token $STRAPI_TRANSFER_TO_TOKEN",
+    "transfer:FromCloud": "strapi transfer --from $STRAPI_CLOUD_URL --from-token $STRAPI_TRANSFER_FROM_TOKEN"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.38.0",
